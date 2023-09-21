@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
   int x = 2;
   int y = 3;
   printf("x: %d\n", x);
@@ -9,16 +9,10 @@ int main() {
   printf("&y: %p\n", (void*)&y);
 
   int* px;
-  int* py;
+  int *py;
 
   px = &x;
   py = &y;
-
-  // x x x x
-  // y y y y
-  // px px px px px px px px
-  // py py py py py py py py
-
 
   // x has type T
   // &x has type T*

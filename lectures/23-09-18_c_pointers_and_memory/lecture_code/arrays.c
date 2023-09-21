@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
   int a[10] = { 1,2,3,4,5,6,7,8,9,10 };
 
   //  for (int i; i < 10; i++) {
@@ -14,6 +14,7 @@ int main() {
 
   for (int i = 0; i < 10; i++) {
     printf("p: %p\n", (void*)p);
+    printf("p: %d\n", p);
     printf("*p: %d\n", *p);
     p = p + 1; // implicit * sizeof(int)
   }

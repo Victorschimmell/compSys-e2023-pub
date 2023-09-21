@@ -105,7 +105,7 @@ See [skema.ku.dk](https://skema.ku.dk/tt/tt.asp?SDB=KU2324&language=DK&folder=Re
 #### Block 1
 
  * Class 1: Axel
-   * Monday: NBB 2.1.H.14
+   * Monday: NBB 2.1.H.142
    * Wednesday: HCØ A101
  * Class 2: Christian
    * Monday: NBB 2.1.I.156
@@ -181,13 +181,14 @@ Wednesday:
   * Auditorium Syd, NEXS, Nørre Alle 51 -- Only in weeks with assignment deadlines.
 
 Friday: 
-  * DIKU?
-  * DIKU?
-  * DIKU? -- Only in weeks with assignment deadlines
+  * DIKU 1-0-10
+  * DIKU 1-0-14
+  * DIKU 1-0-18 -- Overflow room in weeks without assignment deadlines.
+  * DIKU 1-0-22 -- Overflow room
 
 
 ## Study group formation
-
+Online on Absalon or Discord.
 
 
 ## Assignment (The following can change slightly...)
@@ -201,7 +202,7 @@ There are 7 assignment in total during the course with deadline roughly every se
 | A1: Dynamic memory and caching    | 08 Oct @ 16:00      |
 | A2: Concurrency                   | 29 Oct @ 16:00      |
 | A3: Client network distribution   | 19 Nov @ 16:00      |
-| A4: P2P networking and security   | 04 Dec @ 16:00      |
+| A4: P2P networking and security   | 03 Dec @ 16:00      |
 | A5: Simple architecture.          | 17 Dec @ 16:00      |
 | A6: Pipelined architecture        | 07 Jan @ 16:00      |
 

@@ -3,7 +3,7 @@
 ## RISC-V
 
 The following exercises will train you in writing more
-complicated RISC-V programs.  They are intended as preparation for A0.
+complicated RISC-V programs. 
 You will be given pseudocode or C programs, and asked to write similar
 programs in RISC-V assembly.
 
@@ -17,7 +17,7 @@ RARS](../../tools/rars.md).
 
 Implement the standard recursive definition of the Fibonacci function:
 
-    fib(n) = if n < 2 then 1 else fib(n-1) + fib(n-2)
+    fib(n) = if n < 3 then 1 else fib(n-1) + fib(n-2)
 
 *Don't* rewrite it to be an iterative loop instead.  Yes, that's more
 efficient, but it will not give you experience with function calls in
@@ -64,7 +64,7 @@ function `memmem`:
 ```C
 unsigned char* memfind(unsigned char *haystack, int haystacklen,
                        unsigned char *needle, int needlelen) {
-  for (int i = 0; i < haystacklen-needlelen; i++) {
+  for (int i = 0; i <= haystacklen-needlelen; i++) {
     if (memeq(haystack+i,needle,needlelen)) {
       return haystack+i;
     }
